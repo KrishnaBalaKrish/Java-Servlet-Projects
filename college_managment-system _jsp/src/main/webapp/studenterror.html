@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="studenterror.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+    
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h1 class="active" style="color:red"> Error Page </h1>
+    <p>Incorrect username or password</p>
+    <h5>Try again</h5>
+    
+    <h3 class="active"> Student Login </h3>
+<!-- <h2 class="inactive underlineHover">Login </h2> -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+    <i class="fa fa-user-circle-o fa-4x " aria-hidden="true"></i>
+    
+    </div>
+
+    <!-- Login Form -->
+    <form action="studentlogin.jsp" method="post">
+      <input type="text" id="login" class="fadeIn second" name="username" placeholder="User name">
+      <input type="text" id="password" class="fadeIn third" name="password" placeholder="password">
+      <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="mainhome.html"><b>back</b></a>
+    </div>
+
+  </div>
+</div>
+
+
+</html>
